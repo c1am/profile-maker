@@ -1,8 +1,8 @@
 # Team Profile Generator
 
 
-## Description
-This command-line application was created to generate a team profile based on using Node.js. It takes in information about employees on a software engineerng team and then generates an HTML webpage that displays summaries for each person. 
+## Description 
+This command-line application was created to generate a team profile based on user input in the terminal while using the inquirer module from Node.js. It takes in information about employees on a software engineerng team and then generates an HTML webpage that displays summaries for each person. 
 
 
 ## User Story
@@ -34,24 +34,32 @@ THEN I exit the application, and the HTML is generated
 ```
 
 
-## Installation
-Deployment link: https://c1am.github.io/profile-maker/
-Repository link: https://github.com/c1am/profile-maker
-You can clone the code directly from Github and run it locally.
-
-
 ## Preview
 The following image shows a mock-up of the generated HTML’s appearance and functionality:
 
-![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./10-object-oriented-programming-homework-demo.png)
+![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./assets/image/application-snapshot.png)
+
+
+## Installation 
+Repository link: https://github.com/c1am/profile-maker
+Deployment link: To be ran in terminal
+Please clone the repository and download Node. Then install the inquirer module by typing `npm i inquirer` into the terminal. 
+
+
+## Usage 
+Open an integrated terminal from the index.js file and then run `node index.js` from the terminal to start generating the profile. You can also view a sample profile by opening the index.html file directly in a browser.
+
+
+## Tests
+Run `npm test` in the terminal to run Jest for tests on constructors. 
 
 
 ## Built With
 - Javascript
-- HTML
-- CSS
+- MySQL
 
 
 ## Authors
 - Cherry Lam 
     - [GitHub](https://github.com/c1am)
+    - [Email](mailto:cherrylam.ny@gmail.com)
